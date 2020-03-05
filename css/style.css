@@ -42,7 +42,7 @@ ul li a{
     color: #555;
 }
 
-main#banner{
+section#banner{
     background-image: url(../img/jane.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -65,4 +65,50 @@ footer p{
     margin: 0;
     background-color: #f2f2f2;
     text-align: center;
+}
+main#about {
+    text-align: center;
+  }
+  
+  main#about h2 {
+    font-size: 30px;
+  }
+  
+  main#about img {
+    width: 450px;
+    margin: 20px auto;
+  }
+  
+  main#about p cite {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 40px;
+  }
+
+section#concept, section#songs{
+    width: 900px;
+    margin: 30px auto;
+}
+
+section#songs img{
+    width: 100%;
+}
+
+.duas-colunas{
+    overflow: hidden;
+}
+
+.duas-colunas > div{
+    width: 50%;
+    float: left;
+}
+
+section#songs ol li{
+    padding: 10px 0;
+}
+
+section#songs ol li strong{
+    color: orange;
 }
