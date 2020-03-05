@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 
+/*  * é um seletor coringa */
+* {
+    box-sizing: border-box;
+    /* sempre aplicar essa configuração */
+}
+
 body{
     font-family: 'Raleway', sans-serif;
    /* para tirar o espaço entre o conteudo e a pagina do navegador */
@@ -98,11 +104,15 @@ section#songs img{
 
 .duas-colunas{
     overflow: hidden;
+    padding: 50px;
+    
 }
 
 .duas-colunas > div{
     width: 50%;
     float: left;
+   
+    
 }
 
 section#songs ol li{
@@ -116,4 +126,26 @@ section#songs ol li strong{
 section#form-mapa iframe{
     width: 100%;
     height: 400px;
+}
+
+form input[type="text"], form textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 2px 0 10px;
+}
+
+form textarea{
+    resize: none;
+    height: 100px;
+}
+
+form button{
+    border: none;
+    background-color: orange;
+   padding: 5px 20px;
+   color: white;
+}
+
+.mapa{
+   padding-left: 20px; 
 }
